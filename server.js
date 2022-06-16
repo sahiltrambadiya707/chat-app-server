@@ -33,3 +33,4 @@ app.get("/health-check", (req, res) => {
 
 app.use("/api", require("./src/routes/user"));
 app.use("/api", require("./src/routes/chat"));
+app.use("/api", require("./src/routes/message"));
